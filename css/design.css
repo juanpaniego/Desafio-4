@@ -111,6 +111,22 @@ label{
 	align-items: center;	
 }
 
+.animated-logo{
+	animation-name: logo;
+    animation-duration: 5s;
+}
+
+@keyframes logo {
+    from/* inicio */{
+    transform: translateX(1000px);
+    opacity: 0;
+    }
+
+    to/* final */{
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
 
 /* Boxes---------------------------------------------------------------------------------------*/
 
@@ -412,6 +428,22 @@ label{
 	
 }
 
+.animated-logo{
+	animation-name: logo;
+    animation-duration: 2s;
+}
+
+@keyframes logo{
+    from/* inicio */{
+    transform: translateX(1000px);
+    opacity: 0;
+    }
+
+    to/* final */{
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
 
 /* Boxes---------------------------------------------------------------------------------------*/
 
@@ -419,9 +451,7 @@ label{
 	width: 240px;
 	padding: 30px;
 	margin: 20px;
-	background-color: slategrey;
-	border-style: solid;
-	border-color: royalblue;
+	background: linear-gradient(90deg,royalblue,slategray);
 	box-sizing:border-box;
 }
 
@@ -721,6 +751,22 @@ label{
 	
 }
 
+.animated-logo{
+	animation-name: logo;
+    animation-duration: 2s;
+}
+
+@keyframes logo{
+    from/* inicio */{
+    transform: translateX(1000px);
+    opacity: 0;
+    }
+
+    to/* final */{
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
 
 /* Boxes---------------------------------------------------------------------------------------*/
 
@@ -730,10 +776,7 @@ label{
 	margin: 20px;
 	
 	box-sizing:border-box;
-	background-color: slategray;
-	border-color: royalblue;
-	border-style: solid;
-	
+	background: linear-gradient(90deg,royalblue,slategray);
 }
 
 
